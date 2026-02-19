@@ -23,7 +23,7 @@
 </style>
 </head>
 <body>
-    <section class="grid grid-cols-2 container border border-red-500 mx-auto" >
+    <section class="grid grid-cols-1 md:grid-cols-2 container border border-red-500 mx-auto" >
         <div class="banner-left space-y-[30px]">
             <h2 class="text-[80px] font-bold">It's good <br>
              tea time at The <br> Tea House</h2>
@@ -33,8 +33,16 @@
                 <i class="fa-solid fa-arrow-right-long"></i>
             </span></button>
         </div>
-        <div class="banner-right">
+        <div class="banner-right flex justify-end items-end relative">
             <img src="./images/banner.png" alt="">
+            <div class="bg-white rounded-xl shadow-2xl flex justify-center gap-2 items-center w-[250px] absolute
+            bottom-[15px] left-[220px] py-[25px] px-[15px]  ">
+                <img src="./images/rating.png" alt="">
+                <div>
+                    <h2 class="font-bold text-2xl">5.00</h2>
+                    <p>Trust Rating</p>
+                </div>
+            </div>
         </div>
     </section>
 </body>
